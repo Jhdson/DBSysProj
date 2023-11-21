@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="41b4094c53d548a29072785206ceb898" Name="Diagram1">
+        <EntityTypeShape EntityType="ParkingSystemModel.ParkingSpaces" Width="1.5" PointX="3.75" PointY="7.875" />
+        <EntityTypeShape EntityType="ParkingSystemModel.Reservations" Width="1.5" PointX="6" PointY="2.75" />
+        <EntityTypeShape EntityType="ParkingSystemModel.Transactions" Width="1.5" PointX="3" PointY="2.625" />
+        <EntityTypeShape EntityType="ParkingSystemModel.Users" Width="1.5" PointX="0.75" PointY="2.625" />
+        <AssociationConnector Association="ParkingSystemModel.FK__Reservati__Space__3C69FB99" />
+        <AssociationConnector Association="ParkingSystemModel.FK__Transacti__Space__403A8C7D" />
+        <AssociationConnector Association="ParkingSystemModel.FK__Reservati__UserI__3B75D760" />
+        <AssociationConnector Association="ParkingSystemModel.FK__Transacti__UserI__3F466844" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
